@@ -1,0 +1,32 @@
+---
+Loginpage:
+  username_text_box: //input[@formcontrolname='username']
+  password_text_box: //input[@formcontrolname='password']
+  login_button: //button/span[contains(text(),'Login')]
+  register_button: //button/span[contains(text(),'Register User')]
+
+Homepage:
+  user_name: //p/span[@class='ng-star-inserted']
+  gateway_search: //input[@placeholder='Search customer, gateway uid, email, wan mac, title...']
+  gateway_search_button: //button/span[contains(text(),'Search')]
+  online_devices: //span/p[contains(text(),'Online Devices')]
+
+Routerpage:
+  security_platform: //button/span[contains(text(),'Security platform')]
+  smarthome_platform: //button/span[contains(text(),'Smart home platform')]
+  router_platform: //button/span[contains(text(),'Router platform')]
+  requestcyber_logs: //button/span[contains(text(),'Request Cyber Logs')]
+
+SupportHomepage:
+  gateway_search: //input[@placeholder='Search here....']
+  gateway_search_button: //button/span[contains(text(),'Search')]
+
+Randompage:
+  googlesearchbox: //input[@name='q']
+  parentalcontrol_template: //div[contains(text(),'Parental control') and @data-key='parentalHeaderTitle']
+
+
+
+
+
+...
